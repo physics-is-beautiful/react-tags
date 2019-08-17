@@ -472,7 +472,7 @@ class ReactTags extends Component {
 }
 
 module.exports = {
-  WithContext: DragDropContext(HTML5Backend)(ReactTags),
+//   WithContext: DragDropContext(HTML5Backend)(ReactTags),
   WithOutContext: ReactTags,
   KEYS: KEYS,
 };
